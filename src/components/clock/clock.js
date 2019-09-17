@@ -69,7 +69,6 @@ export default class Clock extends Component {
     return (
         <div ref={this.element}>
             <div id="clock" ref={this.clock}>
-                {/* <div id='center-cover'></div> */}
                 <div className="top"></div>
                 <div className="right"></div>
                 <div className="bottom"></div>
