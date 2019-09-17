@@ -1,0 +1,100 @@
+#clock {
+    position: absolute;
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 7px solid #47A9C9;
+    background: #FFF;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#clock:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 48%;
+    right: 0;
+    top: 48%;
+    bottom: 0;
+    background: #000;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 9;
+}
+.number {
+    position: absolute;
+    margin: auto;
+    height: 1em;
+    font-size: 3em;
+    text-align: center;
+}
+.top {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: #757575;
+    left: 0;
+    right: 0;
+    top: 2px;
+    margin: 0 auto;
+}
+.right {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #757575;
+    top: 0;
+    bottom: 0;
+    right: 2px;
+    margin: auto 0;
+}
+.bottom {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: #757575;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    margin: 0 auto;
+}
+.left {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #757575;
+    top: 0;
+    bottom: 0;
+    left: 2px;
+    margin: auto 0;
+}
+.hand {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    display: block;
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+#second-hand {
+    background: #fd1111;
+    height: 2px;
+    width: 42%;
+}
+#minute-hand {
+    background: #262626;
+    height: 4px;
+    width: 38%;
+}
+#hour-hand {
+    background: #262626;
+    height: 4px;
+    width: 30%;
+}
