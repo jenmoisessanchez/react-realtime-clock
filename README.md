@@ -1,4 +1,6 @@
-A simple react app animating the clock hand movements using state.
+[Demo](https://codepen.io/jenmoisessanchez/pen/wvwErRj)
+
+A simple react app animating the clock hand movements using state. 
 
 ## Clock elements
 * Long hand
