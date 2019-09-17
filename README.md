@@ -8,5 +8,5 @@ A simple react app animating the clock hand movements using state.
 * Minute Hand
 * Clock frame
 
-## Credits
+## Inspired by
 https://codepen.io/MyXoToD/pen/psLen
